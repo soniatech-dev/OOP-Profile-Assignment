@@ -17,13 +17,13 @@ class Profile:
         return f"https://github.com/{self.github_username}"
 if __name__ == "__main__":
     my_profile = Profile(
-            name="Solomon Tusingwire",
+            name="Arineitwe Sonia",
             favorite_language="Python",
-            hobby="one hundred meter sprinting",
+            hobby="Writting novels",
             tech_stack=["Python", "JavaScript", "Git", "MySQL"],
             
-            github_username="Solomon200-alt",
-            fun_fact="I can run a race in 12 seconds!"
+            github_username="soniatech-dev",
+            fun_fact="i can turn challenges into books-am already an author"
     )
 
     my_profile.introduce()
